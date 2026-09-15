@@ -16,3 +16,26 @@ performanceArrows[1].addEventListener('click', () => showPerformanceSlide(perfor
 performanceDots.forEach((dot, dotIndex) => {
   dot.addEventListener('click', () => showPerformanceSlide(dotIndex));
 });
+
+const menuToggle = document.querySelector('.menu-toggle');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+function closeMobileMenu() {
+  mobileMenu.classList.remove('is-open');
+  menuToggle.setAttribute('aria-expanded', 'false');
+  menuToggle.setAttribute('aria-label', 'Open navigation menu');
+}
+
+menuToggle.addEventListener('click', () => {
+  const isOpen = mobileMenu.classList.toggle('is-open');
+  menuToggle.setAttribute('aria-expanded', String(isOpen));
+  menuToggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+});
+
+mobileMenu.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', closeMobileMenu);
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') closeMobileMenu();
+});
