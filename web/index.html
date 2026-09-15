@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scalper Prime — landing page design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="navbar">
+  <div class="wrap nav-inner">
+    <div class="logo">
+      <img src="assets/logo.jpeg" alt="Scalper Prime logo" class="logo-image" />
+    </div>
+    <div class="nav-links">
+      <a href="#performance">Performance</a>
+      <a href="#why">Why Us</a>
+      <a href="#how">How It Works</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#risk">Risk</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn btn-outline" href="https://discord.gg/8yaVghZyx2" target="_blank" rel="noopener noreferrer">Discord</a>
+      <a class="btn btn-primary" href="https://www.mql5.com/en/market/product/192385?source=Site+Profile+Seller" target="_blank" rel="noopener noreferrer">MQL5 Market</a>
+    </div>
+  </div>
+</div>
+
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>SCALPER<span class="accent">PRIME EA</span></h1>
+      <div class="hero-tags">
+        <span class="tag">XAUUSD</span>
+        <span class="tag">MT5</span>
+        <span class="tag">Fully automated</span>
+      </div>
+      <p class="lede">A professional automated scalping system built specifically for Gold. No screen time, no guesswork — just a disciplined strategy running around the clock.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://www.mql5.com/en/market/product/192385?source=Site+Profile+Seller" target="_blank" rel="noopener noreferrer">MQL5 Market</a>
+        <a class="btn btn-outline" href="https://discord.gg/8yaVghZyx2" target="_blank" rel="noopener noreferrer">Join Discord</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img class="hero-bot" src="assets/candles.png" alt="Scalper Prime trading chart" />
+    </div>
+  </div>
+</section>
+
+<section class="performance" id="performance">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Performance</p>
+      <h2>Real results, real data.</h2>
+    </div>
+    <div class="track-frame">
+      <div class="track-screen">
+        <img class="track-slide active" src="assets/graph.PNG" alt="Scalper Prime performance graph" />
+        <img class="track-slide" src="assets/result2.PNG" alt="Scalper Prime trading results" />
+        <img class="track-slide" src="assets/settings.PNG" alt="Scalper Prime settings" />
+      </div>
+      <div class="track-nav">
+        <button class="track-arrow" type="button" aria-label="Previous performance image">‹</button>
+        <div class="track-dots">
+          <span class="active"></span><span></span><span></span>
+        </div>
+        <button class="track-arrow" type="button" aria-label="Next performance image">›</button>
+      </div>
+    </div>
+    <p class="track-caption">Backtest results — MT5 strategy tester reports</p>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Why Scalper Prime</p>
+      <h2>Built to trade gold without you at the desk.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <svg class="why-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 2 L4 14h6l-1 8 9-12h-6z"/></svg>
+        <h3>Automated execution</h3>
+        <p>Entries and exits are placed by the algorithm — no manual clicking under pressure.</p>
+      </div>
+      <div class="why-card">
+        <svg class="why-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.6" fill="currentColor"/></svg>
+        <h3>Precision trading</h3>
+        <p>Tuned entry logic designed around gold's specific volatility and spread behaviour.</p>
+      </div>
+      <div class="why-card">
+        <svg class="why-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg>
+        <h3>Risk control</h3>
+        <p>Adaptive stop-loss and lot sizing keep drawdown inside limits you set.</p>
+      </div>
+      <div class="why-card">
+        <svg class="why-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20V10M12 20V4M20 20v-7"/></svg>
+        <h3>Data driven</h3>
+        <p>Every rule is backed by tested statistics, not discretionary calls.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how" id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">How it works</p>
+      <h2>Three steps, repeated automatically.</h2>
+    </div>
+    <div class="how-row">
+      <div class="how-step">
+        <p class="how-num">01</p>
+        <h3>Analyze</h3>
+        <p>The EA reads live XAUUSD price action for a qualifying setup.</p>
+      </div>
+      <div class="how-arrow">→</div>
+      <div class="how-step">
+        <p class="how-num">02</p>
+        <h3>Execute</h3>
+        <p>A trade opens the instant conditions align, with risk pre-set.</p>
+      </div>
+      <div class="how-arrow">→</div>
+      <div class="how-step">
+        <p class="how-num">03</p>
+        <h3>Exit</h3>
+        <p>Adaptive take-profit and stop-loss close the position on target.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product" id="dashboard">
+  <div class="wrap">
+    <div class="section-head" style="margin:0 auto 44px;text-align:center;">
+      <p class="eyebrow">The dashboard</p>
+      <h2>Runs quietly inside MT5.</h2>
+    </div>
+    <div class="product-frame">
+      <div class="product-topbar"><span></span><span></span><span></span></div>
+      <div class="product-screen">
+        <img src="assets/dashboard.PNG" alt="Scalper Prime dashboard" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="xauusd" id="xauusd">
+  <div class="wrap xau">
+    <h2>XAUUSD</h2>
+    <p class="sub">Gold</p>
+    <p class="strap">Focused. Specialized. Automated.</p>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Features</p>
+      <h2>Everything the strategy needs, nothing it doesn't.</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-row"><div class="feature-check">✓</div><div><p>Automated execution</p><span>Runs the full trade cycle without manual input.</span></div></div>
+      <div class="feature-row"><div class="feature-check">✓</div><div><p>XAUUSD focused</p><span>Built and tuned for one instrument only.</span></div></div>
+      <div class="feature-row"><div class="feature-check">✓</div><div><p>MT5 compatible</p><span>Runs on the MetaTrader 5 platform.</span></div></div>
+      <div class="feature-row"><div class="feature-check">✓</div><div><p>Fixed lot option</p><span>Trade fixed size or scale with account equity.</span></div></div>
+      <div class="feature-row"><div class="feature-check">✓</div><div><p>Adaptive TP / SL</p><span>Targets and stops adjust to current volatility.</span></div></div>
+      <div class="feature-row"><div class="feature-check">✓</div><div><p>Spread protection</p><span>Pauses entries when spreads widen abnormally.</span></div></div>
+      <div class="feature-row"><div class="feature-check">✓</div><div><p>Configurable risk</p><span>Set your own risk-per-trade ceiling.</span></div></div>
+      <div class="feature-row"><div class="feature-check">✓</div><div><p>24/5 operation</p><span>Watches the market for every session, every day.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="pricing">
+  <div class="wrap">
+    <div class="section-head" style="margin:0 auto 44px;text-align:center;">
+      <p class="eyebrow">Pricing</p>
+      <h2>Pick a term, keep the strategy.</h2>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <p class="price-plan">6 months rent</p>
+        <p class="price-amount">$197</p>
+        <p class="price-note">Six months access</p>
+        <a class="btn btn-outline" href="https://www.mql5.com/en/market/product/192385?source=Site+Profile+Seller" target="_blank" rel="noopener noreferrer">MQL5 Market</a>
+      </div>
+      <div class="price-card featured">
+        <span class="price-badge">Most popular</span>
+        <p class="price-plan">1 year rent</p>
+        <p class="price-amount">$347</p>
+        <p class="price-note">Best value for active traders</p>
+        <a class="btn btn-primary" href="https://www.mql5.com/en/market/product/192385?source=Site+Profile+Seller" target="_blank" rel="noopener noreferrer">MQL5 Market</a>
+      </div>
+      <div class="price-card">
+        <p class="price-plan">Unlimited use</p>
+        <p class="price-amount">$697</p>
+        <p class="price-note">One-time, unlimited access</p>
+        <a class="btn btn-outline" href="https://www.mql5.com/en/market/product/192385?source=Site+Profile+Seller" target="_blank" rel="noopener noreferrer">MQL5 Market</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="section-head" style="margin:0 auto 32px;text-align:center;">
+      <p class="eyebrow">FAQ</p>
+      <h2>Questions traders ask first.</h2>
+    </div>
+    <div class="faq-list">
+      <details open>
+        <summary>What is Scalper Prime?</summary>
+        <p>An automated MT5 expert advisor that scalps XAUUSD (gold) using a rules-based entry and exit system.</p>
+      </details>
+      <details>
+        <summary>Which platform does it use?</summary>
+        <p>It runs on MetaTrader 5 only. MetaTrader 4 is not supported.</p>
+      </details>
+      <details>
+        <summary>Which symbol does it trade?</summary>
+        <p>XAUUSD exclusively. The strategy is not designed for other pairs or instruments.</p>
+      </details>
+      <details>
+        <summary>Is it fully automated?</summary>
+        <p>Yes. Once attached to a chart with your settings, it analyzes, enters, and exits trades without manual input.</p>
+      </details>
+      <details>
+        <summary>Can I use it with my broker?</summary>
+        <p>It works with most MT5 brokers. Low spread and fast execution on XAUUSD are recommended for best results.</p>
+      </details>
+      <details>
+        <summary>Do I need a VPS?</summary>
+        <p>A VPS isn't required but is recommended so the EA keeps running when your own computer is offline.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="disclaimer" id="risk">
+  <div class="wrap">
+    <p>Trading involves substantial risk and may not be suitable for all investors. Past performance, including backtested results, is not indicative of future outcomes. Only trade with capital you can afford to lose.</p>
+  </div>
+</section>
+
+<section class="cta" id="cta" style="border-bottom:none;">
+  <div class="wrap">
+    <h2>Trade gold. Automatically.</h2>
+    <div class="cta-actions">
+      <a class="btn btn-primary" href="https://www.mql5.com/en/market/product/192385?source=Site+Profile+Seller" target="_blank" rel="noopener noreferrer">View on MQL5 Market</a>
+      <a class="btn btn-outline" href="#">Join our Discord</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="logo">
+      <img src="assets/logo.jpeg" alt="Scalper Prime logo" class="logo-image" />
+    </div>
+    <div class="footer-links">
+      <a href="https://www.mql5.com/en/market/product/192385?source=Site+Profile+Seller" target="_blank" rel="noopener noreferrer">MQL5 Market</a>
+      <a href="#">Discord</a>
+      <a href="#">Risk disclosure</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
