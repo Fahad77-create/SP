@@ -31,6 +31,7 @@ body::before{
   z-index:0;
   pointer-events:none;
   background:linear-gradient(rgba(7,7,6,0.7),rgba(7,7,6,0.7)),url('assets/bot.png') center top / cover no-repeat;
+  background-attachment:fixed;
   opacity:0.34;
 }
 /* background video removed */
@@ -259,6 +260,12 @@ footer{padding:40px 0;border-bottom:none;position:relative;z-index:2;}
   .features-grid{grid-template-columns:1fr;}
   .pricing-grid{grid-template-columns:1fr;}
   .nav-inner{position:relative;}
+  body::before{
+    position:fixed;
+    background-attachment:scroll;
+    background-position:center center;
+    background-size:cover;
+  }
   .menu-toggle{
     display:flex;flex-direction:column;justify-content:center;gap:5px;
     width:44px;height:44px;padding:10px;border:1px solid var(--border);
