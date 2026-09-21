@@ -287,7 +287,8 @@ footer{padding:40px 0;border-bottom:none;position:relative;z-index:2;}
   .nav-actions{gap:6px;margin-left:auto;}
   .nav-actions .btn{padding:8px 10px;font-size:10px;}
   .menu-toggle{margin-left:15px;flex-shrink:0;}
-  .hero{padding-top:0;}
+  .hero{padding-top:45px;}
+  .hero-visual{display:none;}
   .hero-bot{height:95%;}
   .hero h1{font-size:38px;}
 }
